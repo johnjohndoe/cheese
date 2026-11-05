@@ -22,27 +22,16 @@
       <span id="count" class="count" aria-live="polite"></span>
       <button id="theme" class="theme-toggle" type="button"></button>
     </div>
-    <div class="search-wrap">
-      <input id="search" type="search" placeholder="Käse, Käserei, Geschmack …" autocomplete="off" aria-label="Suche">
-      <button id="clear" class="clear" type="button" aria-label="Suche leeren" hidden>×</button>
-    </div>
-    <button id="toggle-filters" class="toggle-filters" type="button" aria-expanded="false" aria-controls="filters">
-      Filter <span id="filter-badge" class="badge" hidden></span>
-    </button>
-    <div id="filters" class="filters" hidden>
-      <div class="group" data-key="animal">
-        <span class="label">Milchtyp</span>
-        <div class="chips"></div>
+    <div class="search-row">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Käse suchen …" autocomplete="off" aria-label="Suche">
+        <button id="clear" class="clear" type="button" aria-label="Suche leeren" hidden>×</button>
       </div>
-      <div class="group" data-key="milk">
-        <span class="label">Milchart</span>
-        <div class="chips"></div>
-      </div>
-      <div class="group" data-key="rind">
-        <span class="label">Rinde essbar</span>
-        <div class="chips"></div>
-      </div>
-      <button id="reset" class="reset" type="button">Alle Filter zurücksetzen</button>
+      <button id="open-filters" class="filter-btn" type="button" aria-haspopup="dialog" aria-controls="filters">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v2H3zm3 6h12v2H6zm4 6h4v2h-4z"/></svg>
+        <span>Filter</span>
+        <span id="filter-badge" class="badge" hidden></span>
+      </button>
     </div>
   </header>
 
@@ -55,6 +44,35 @@
     <a href="https://github.com/johnjohndoe/cheese" rel="noopener">Quellcode auf GitHub</a>
     · <a href="https://github.com/johnjohndoe/cheese/blob/main/LICENSE" rel="noopener">AGPL-3.0</a>
   </footer>
+
+  <dialog id="filters" class="sheet" aria-labelledby="sheet-title">
+    <div class="sheet-inner">
+      <div class="sheet-grab">
+        <div class="sheet-handle" aria-hidden="true"></div>
+        <div class="sheet-head">
+          <h2 id="sheet-title" tabindex="-1" autofocus>Filter</h2>
+          <button id="reset" class="text-btn" type="button">Zurücksetzen</button>
+        </div>
+      </div>
+      <div class="sheet-body">
+        <div class="group" data-key="animal">
+          <span class="label">Milchtyp</span>
+          <div class="chips"></div>
+        </div>
+        <div class="group" data-key="milk">
+          <span class="label">Milchart</span>
+          <div class="chips"></div>
+        </div>
+        <div class="group" data-key="rind">
+          <span class="label">Rinde essbar</span>
+          <div class="chips"></div>
+        </div>
+      </div>
+      <div class="sheet-foot">
+        <button id="apply" class="filled-btn" type="button"></button>
+      </div>
+    </div>
+  </dialog>
 
   <script src="app.js"></script>
 </body>

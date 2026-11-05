@@ -44,7 +44,7 @@
   const $ = id => document.getElementById(id);
   const els = {
     search: $('search'), clear: $('clear'), list: $('list'), empty: $('empty'),
-    count: $('count'), filters: $('filters'), toggle: $('toggle-filters'),
+    count: $('count'), filters: $('filters'), openFilters: $('open-filters'), apply: $('apply'),
     badge: $('filter-badge'), reset: $('reset'), az: $('az'),
   };
   const state = { q: '', animal: new Set(), milk: new Set(), rind: new Set() };
@@ -109,6 +109,8 @@
     const active = state.animal.size + state.milk.size + state.rind.size;
     els.badge.hidden = !active;
     els.badge.textContent = active;
+    els.openFilters.classList.toggle('active', active > 0);
+    els.openFilters.setAttribute('aria-label', active ? `Filter, ${active} aktiv` : 'Filter');
   }
 
   // ---------- Render ----------
@@ -140,6 +142,7 @@
     els.list.innerHTML = html;
     els.empty.hidden = shown.length > 0;
     els.count.textContent = shown.length === cheeses.length ? `${cheeses.length} Käse` : `${shown.length} von ${cheeses.length}`;
+    els.apply.textContent = shown.length ? `${shown.length} Käse anzeigen` : 'Keine Treffer';
 
     const all = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
     const used = all.filter(l => cheeses.some(c => letterOf(c.name) === l));
@@ -156,12 +159,54 @@
   els.clear.addEventListener('click', () => {
     els.search.value = ''; state.q = ''; els.clear.hidden = true; render(); els.search.focus();
   });
-  els.toggle.addEventListener('click', () => {
-    const open = els.filters.hidden;
-    els.filters.hidden = !open;
-    els.toggle.setAttribute('aria-expanded', open);
-    updateHeaderHeight();
+  // ---------- Filter bottom sheet ----------
+  const sheet = els.filters;
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  function openSheet() {
+    sheet.classList.remove('closing');
+    sheet.style.transform = '';
+    sheet.showModal();
+    document.documentElement.classList.add('sheet-open');
+  }
+  function closeSheet() {
+    if (!sheet.open || sheet.classList.contains('closing')) return;
+    sheet.classList.add('closing');
+    setTimeout(() => sheet.close(), reducedMotion.matches ? 0 : 200);
+  }
+  sheet.addEventListener('close', () => {
+    sheet.classList.remove('closing');
+    sheet.style.transform = '';
+    document.documentElement.classList.remove('sheet-open');
   });
+  sheet.addEventListener('cancel', e => { e.preventDefault(); closeSheet(); }); // Esc
+  sheet.addEventListener('click', e => { if (e.target === sheet) closeSheet(); }); // tap on scrim
+  els.openFilters.addEventListener('click', openSheet);
+  els.apply.addEventListener('click', closeSheet);
+
+  // Swipe down on the handle/title area to dismiss
+  const grab = sheet.querySelector('.sheet-grab');
+  let dragStart = null, dragDy = 0;
+  grab.addEventListener('pointerdown', e => {
+    if (e.target.closest('button')) return;
+    dragStart = e.clientY; dragDy = 0;
+    grab.setPointerCapture(e.pointerId);
+    sheet.classList.add('dragging');
+  });
+  grab.addEventListener('pointermove', e => {
+    if (dragStart === null) return;
+    dragDy = Math.max(0, e.clientY - dragStart);
+    sheet.style.transform = `translateY(${dragDy}px)`;
+  });
+  const endDrag = () => {
+    if (dragStart === null) return;
+    dragStart = null;
+    sheet.classList.remove('dragging');
+    if (dragDy > 80) closeSheet();
+    else sheet.style.transform = '';
+  };
+  grab.addEventListener('pointerup', endDrag);
+  grab.addEventListener('pointercancel', endDrag);
+
   els.filters.addEventListener('click', e => {
     const b = e.target.closest('.chip');
     if (!b) return;
@@ -192,7 +237,7 @@
     document.documentElement.style.setProperty('--header-h', document.querySelector('.top').offsetHeight + 'px');
   }
   window.addEventListener('resize', updateHeaderHeight);
-  // Header height also changes when filters open/close or chips wrap
+  // Header height can change, e.g. when the title row wraps
   if ('ResizeObserver' in window) new ResizeObserver(updateHeaderHeight).observe(document.querySelector('.top'));
 
   // ---------- Theme: system → light → dark ----------
