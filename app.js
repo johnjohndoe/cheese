@@ -192,6 +192,8 @@
     document.documentElement.style.setProperty('--header-h', document.querySelector('.top').offsetHeight + 'px');
   }
   window.addEventListener('resize', updateHeaderHeight);
+  // Header height also changes when filters open/close or chips wrap
+  if ('ResizeObserver' in window) new ResizeObserver(updateHeaderHeight).observe(document.querySelector('.top'));
 
   // ---------- Theme: system → light → dark ----------
   const ICONS = {
