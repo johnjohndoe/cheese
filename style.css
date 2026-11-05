@@ -34,7 +34,7 @@
      The right gutter is wider to leave room for the A–Z rail. */
   --content-max: 760px;
   --gutter-l: calc(16px + env(safe-area-inset-left));
-  --gutter-r: calc(28px + env(safe-area-inset-right));
+  --gutter-r: calc(40px + env(safe-area-inset-right)); /* room for the A–Z rail */
   --pad-l: max(var(--gutter-l), calc((100% - var(--content-max)) / 2 + var(--gutter-l)));
   --pad-r: max(var(--gutter-r), calc((100% - var(--content-max)) / 2 + var(--gutter-r)));
 }
@@ -182,15 +182,23 @@ html.sheet-open { overflow: hidden; } /* no background scrolling */
 /* A–Z rail */
 .az {
   /* Stay in the visible area below the sticky header, centred vertically there */
-  position: fixed; right: calc(2px + env(safe-area-inset-right));
+  position: fixed; right: calc(4px + env(safe-area-inset-right));
   top: var(--header-h, 140px); bottom: env(safe-area-inset-bottom);
+  padding: 8px 0;
   justify-content: safe center; overflow: hidden;
   z-index: 5;
   display: flex; flex-direction: column; align-items: center;
-  font-size: .68rem; font-weight: 700;
+  font-size: .8rem; font-weight: 700;
   touch-action: none; user-select: none; -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
-.az a { color: var(--md-primary); text-decoration: none; padding: 1px 6px; line-height: 1.25; }
+/* Each letter is a 34px-wide target, 24px tall (WCAG 2.5.8); shrinks evenly on short screens */
+.az a {
+  flex: 0 1 24px; min-height: 0; width: 34px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--md-primary); text-decoration: none; border-radius: 12px;
+}
+.az a:active, .az a.touching { background: var(--md-primary-container); color: var(--md-on-primary-container); }
 .az a.off { color: var(--md-on-surface); opacity: .38; pointer-events: none; } /* M3 disabled */
 
 /* List */

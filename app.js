@@ -233,7 +233,16 @@
     if (!a || a.parentElement !== els.az || a.classList.contains('off')) return;
     document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView({ block: 'start' });
   }
-  function jumpFromPoint(x, y) { jumpTo(document.elementFromPoint(x, y)); }
+  function jumpFromPoint(x, y) {
+    const a = document.elementFromPoint(x, y);
+    // Highlight the letter under the finger while scrubbing
+    els.az.querySelectorAll('.touching').forEach(el => el !== a && el.classList.remove('touching'));
+    if (a && a.parentElement === els.az && !a.classList.contains('off')) a.classList.add('touching');
+    jumpTo(a);
+  }
+  const clearTouching = () => els.az.querySelectorAll('.touching').forEach(el => el.classList.remove('touching'));
+  els.az.addEventListener('touchend', clearTouching);
+  els.az.addEventListener('touchcancel', clearTouching);
   els.az.addEventListener('click', e => {
     const a = e.target.closest('a');
     if (!a) return;
