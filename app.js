@@ -124,8 +124,11 @@
     for (const c of shown) {
       const L = letterOf(c.name);
       if (L !== current) {
+        // One <section> per letter: keeps each sticky heading inside its own group,
+        // so earlier headings don't stay pinned (which broke jumping upwards)
+        if (current) html += '</section>';
         current = L; letters.add(L);
-        html += `<h3 class="letter" id="L-${L}">${L}</h3>`;
+        html += `<section class="letter-group" id="L-${L}" aria-labelledby="H-${L}"><h3 class="letter" id="H-${L}">${L}</h3>`;
       }
       const tags = [];
       if (c.type) tags.push(`<span class="tag">${esc(c.type)}</span>`);
@@ -139,6 +142,7 @@
         <div class="tags">${tags.join('')}</div>
       </article>`;
     }
+    if (current) html += '</section>';
     els.list.innerHTML = html;
     els.empty.hidden = shown.length > 0;
     els.count.textContent = shown.length === cheeses.length ? `${cheeses.length} Käse` : `${shown.length} von ${cheeses.length}`;
@@ -225,12 +229,17 @@
   });
 
   // A–Z rail: support tap and finger-drag scrubbing
-  function jumpFromPoint(x, y) {
-    const a = document.elementFromPoint(x, y);
-    if (a && a.parentElement === els.az && !a.classList.contains('off')) {
-      document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView();
-    }
+  function jumpTo(a) {
+    if (!a || a.parentElement !== els.az || a.classList.contains('off')) return;
+    document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView({ block: 'start' });
   }
+  function jumpFromPoint(x, y) { jumpTo(document.elementFromPoint(x, y)); }
+  els.az.addEventListener('click', e => {
+    const a = e.target.closest('a');
+    if (!a) return;
+    e.preventDefault(); // no #hash entries in the browser history
+    jumpTo(a);
+  });
   els.az.addEventListener('touchmove', e => { const p = e.touches[0]; jumpFromPoint(p.clientX, p.clientY); e.preventDefault(); }, { passive: false });
 
   function updateHeaderHeight() {
