@@ -1,0 +1,1034 @@
+[
+  {
+    "dairy": null,
+    "name": "Abondance AOP",
+    "info": "Milch wird zugekauft",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": null
+  },
+  {
+    "dairy": "Bauhofer",
+    "name": "Allgäuer Emmentaler",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Käserei Wiggensbach",
+    "name": "Allgäuer Hornkäse",
+    "info": "Aus Heumilch",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Gebrüder Baldauf",
+    "name": "Allgäuer Schafbergkäse",
+    "info": "Aus Heumilch",
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Pötzelsberger",
+    "name": "Alpenperle",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Alpin (ähnlich Beaufort)",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Marienwaerdt",
+    "name": "Aphrodite Gouda",
+    "info": "Geschmack: Vollmundig, delikate Kräuter- und Gewürzmischung",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Appenzeller",
+    "info": "Würziger Geschmack, Laktose frei, Milch aus zugekauft",
+    "milk_type": "Kuh",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "ÖMA",
+    "name": "Bartholomäus Gewürzblüte",
+    "info": "Naturrinde: Rotschmiere, Bärl., Oregano, Rosmarin, Thymian, Ringelbl., Kornbl.\nLactosefrei",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Ustrom Käse",
+    "name": "Berliner Blau",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Blanche Des Cevennes",
+    "info": "handwerklich",
+    "milk_type": "Schaf",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Bleu Savoyard",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Boyard 120g",
+    "info": "handwerklich",
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Brebis Frais Fermier colis 6",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Brie A La Truffe De La Saint Jean Petit",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Brie De Meaux AOP 1/2 affiné",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Brie De Meaux Mit Senf",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Brodowin",
+    "name": "Brodowin Gouda",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Buchette Nature",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Butter, gesalzen",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Butterkäse Natur",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Camembert Mit Calvados",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Camembert Petit 150gr",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Campagnard (Brie)",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Cantal",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Lye Cross Farm",
+    "name": "Cheddar gereift",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Lye Cross Farm",
+    "name": "Cheddar mild",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Coeur Chevre Cendre",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Fromagerie Arnaud",
+    "name": "Comté 20/23 Monate AOP",
+    "info": "Naturrinde, nicht zum Verzehr empfohlen",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Fromagerie Arnaud",
+    "name": "Comté 24/29 Monate",
+    "info": "Laktose frei",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Comté 30/35 Monate",
+    "info": "Naturrinde, nicht zum Verzehr empfohlen",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Comte Reserve",
+    "info": "Naturrinde, nicht zum Verzehr empfohlen",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Comte Vieux",
+    "info": "Naturrinde, nicht zum Verzehr empfohlen",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Cremeux",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Crottin",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": null,
+    "edible_rind": null
+  },
+  {
+    "dairy": "Thise Mejeri, Dänemark",
+    "name": "Dänischer Leuchtturmkäse",
+    "info": "Laktose frei",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Backensholzer Hof",
+    "name": "Deichkäse 12 Monate",
+    "info": "Geschmack nussig, würzig und kräftig",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Ostenfelder Meierei",
+    "name": "Deichziege",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": null
+  },
+  {
+    "dairy": null,
+    "name": "Etoile",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Backensholzer Hof",
+    "name": "Fabro",
+    "info": "Ein wunderbarer Weichkäse mit frischem Geschmack aus Nordfriesland!",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Felix Austria Bergkäse",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Fourme D'Ambert",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Backensholzer Hof",
+    "name": "Friesisch Blue",
+    "info": "Leichte Süßnoten",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Garrigue De Savoie",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Gläserne Molkerei",
+    "name": "Goldstück Schnittkäse",
+    "info": "Gläserne Molkerei",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Gouda Alt",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Gouda Chevre (Ziegengouda)",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Gouda italienische Kräuter",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Aurora Käserei",
+    "name": "Gouda jung",
+    "info": "Fairbio Siegel",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Aurora",
+    "name": "Gouda Knoblauch/Basilikum",
+    "info": "MILCH*, Basilikum*, Knoblauch*, Meersalz, Milchsäurekultur, Lab",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Gouda Kürbis Hooidammer",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Aurora",
+    "name": "Gouda Season Frühling",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Käserei Aurora",
+    "name": "Gouda Season Herbst",
+    "info": "MILCH*, Meersalz, Oliven*, getrocknete Tomaten*, Rosmarin*, Milchsäurekultur, Lab",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Gouda Season Winter",
+    "info": "Pikant-fruchtiger Schnittkäse verfeinert mit Cranberry, Cayennepfeffer, Zwiebel, Knoblauch, Kreuzkümmel & etwas Zimt.",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Bio Suisse Knopse",
+    "name": "Greyerzer AOP",
+    "info": "Lactosefrei",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Urstrom Käse",
+    "name": "Grillkaese Urstrom",
+    "info": "Aus Jersey-Kuhmilch, Salz, getrocknete Minze",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Käserei Aurora",
+    "name": "Halloween Gouda",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Hexagone Cendre Fermier",
+    "info": "handwerklich",
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Luisenhof",
+    "name": "Junger Hirte",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Juranoir",
+    "info": "mit Asche",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Gläserne Molkere",
+    "name": "Kesselmeister Kleekorn",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": null,
+    "edible_rind": false
+  },
+  {
+    "dairy": "Backensholzer Hof",
+    "name": "Kleine Ziege",
+    "info": "handwerklich",
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Backensholzer Hof",
+    "name": "Kleiner Deichkäse",
+    "info": "nussig & würzig",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Backensholzer Hof",
+    "name": "Kleiner Husumer",
+    "info": "Wie Taleggio",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Vallée Verte",
+    "name": "Le Mit´Chou",
+    "info": "EU bio",
+    "milk_type": "Schaf",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Louradou Paprika, Zwiebel, Knoblauch",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Aurora",
+    "name": "Maigouda",
+    "info": "Aus der ersten Weidemilch des Jahres. Mild und herrlich sahnig",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Quesos Parra Jimenez",
+    "name": "Manchego Parra Jimenez",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Artesanos Penas Negras",
+    "name": "Manchego Sanchez de Rojas",
+    "info": "Milch stammt von den eigenen Tieren. Hofkäserei.",
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Hotos",
+    "name": "Manouri Schafskäse",
+    "info": "ohne Rinde",
+    "milk_type": "Schaf & Ziegenmolke",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Marbre Chevre Fermier",
+    "info": "mit Asche marbriert (Kein Schimmel!)",
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Maroilles AOP Fermier",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Merlin Ziegenrolle Chevrolle",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Backensholzer Hof",
+    "name": "Michel",
+    "info": "Geschmack sehr aromatisch, kräftig, salzig",
+    "milk_type": "50% Kuh, 50% Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Mimolette",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Mont Velan (ähn. Appenzeller)",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Morbier",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Fromagerie Arnaud",
+    "name": "Morbier Arnaud",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Urstrom Käse",
+    "name": "Mullberry",
+    "info": "Handwerkliche Milchverarbeitung ohne Biozertifikat.\nMilch wird vom Nachbarbetrieb zugekauft.",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Palet De Bourgogne",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Palet De Brebis",
+    "info": "handwerklich",
+    "milk_type": "Schaf",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Casearia di Sant Anna, Italien",
+    "name": "Parmigiano Reggiano 12/14",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Casearia di Sant Anna, Italien",
+    "name": "Parmigiano Reggiano 30/33",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Parmigiano Reggiano 40 Monate",
+    "info": "Geschmack: ausgeprägte kristalline Textur mit\naromatischer Würze.",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Az. Agr. Bonat",
+    "name": "Parmigiano Reggiano Mezzano",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Pecorino Fresco Grosseto",
+    "info": "Geschmack:Aromatisch, aber dezent und mit leicht säuerlicher Schafnote, dabei gut schneidfähig.",
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Pecorino Il Primaverino",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Azienda Agricola Dinolfo",
+    "name": "Pecorino jung natur",
+    "info": "Milch stammt von den eigenen Tieren. Hofkäserei.",
+    "milk_type": "Schaf",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Formaggi Buccia Bianca",
+    "name": "Pecorino Romano DOP",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Pecorino Toscano Grottino",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": null
+  },
+  {
+    "dairy": null,
+    "name": "Pecorino Toscano Tomate",
+    "info": "Naturrinde, nicht zum Verzehr empfohlen",
+    "milk_type": "Schaf",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Vallée verte",
+    "name": "Petite Fleur Kräuter",
+    "info": "Schmeckt nach frischen Gartenkräutern und ein Hauch Knoblauch",
+    "milk_type": "Kuh",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Vallée verte",
+    "name": "Petite Fleur Natur",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Pierre D. Burons Bärlauch",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Pierre Des Burons",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Pierre Des Burons Ail Des Ours",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Raclette (Saison)",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "La Dent du Chat",
+    "name": "Raclette de Savoie",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": null
+  },
+  {
+    "dairy": null,
+    "name": "Raclette Fumee",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Raclette Poivre De Java",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Fromagerie Bouchet",
+    "name": "Reblochon",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": null
+  },
+  {
+    "dairy": null,
+    "name": "Reblochon",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Lye Cross Farm",
+    "name": "Red Leicester",
+    "info": "pikant, würzig",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Roquefort Crouzat",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Käserei Aurora",
+    "name": "Rucola-Pinienkern Gouda",
+    "info": "MILCH*, Salz (2,4%), Lab, Säurewecker, Rucola frisch*, Pinienkerne*",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Marienwaerdt",
+    "name": "Rucola-Pinienkern Gouda Marienwaerdt",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Sancy Fermiere",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Barlotti",
+    "name": "Scamorza di Bufala Affumicata 240g",
+    "info": "mit Stroh geräuchert",
+    "milk_type": "Büffel",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Scamorza geräuchert Ca´Verde",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Urstrom Käse",
+    "name": "Schmittkäse",
+    "info": "Handwerkliche Milchverarbeitung ohne Biozertifikat. Milch wird vom Nachbarbetrieb zugekauft.",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Stilton",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": null,
+    "name": "Taleggio",
+    "info": "Geschmack: mild-würzig bis intensiv mit fruchtigen und nussigen Aromen und\nerinnert dezent an Kuh.",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Duroux",
+    "name": "Tome du Pays",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Tomme Chevre Fermiere Cendree",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Les Bergers du Larzac Coop",
+    "name": "Tomme d´estaing Brebis",
+    "info": null,
+    "milk_type": "Schaf",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Tomme De Montagne D´Auvergne",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Tomme Fermiere D'Alsace",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Tomme Fermiere Mit Bärlauch",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Tommette Fleurie (Wildblumenkäse)",
+    "info": "Blumenmantel aus u.a. Malven- und Rosenblüten, Erdbeerblättern, Ringelblumen und Färberdisteln",
+    "milk_type": "Kuh",
+    "milk_treatment": "Thermisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Urstrom Käse",
+    "name": "Urstromshire",
+    "info": null,
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Urstrom Käse",
+    "name": "Urstromtaler",
+    "info": "Handwerkliche Milchverarbeitung ohne Biozertifikat.\nMilch wird vom Nachbarbetrieb zugekauft.",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Vache Des Pyrenees",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Vacherin Mont D´Or",
+    "info": "handwerklich",
+    "milk_type": "Kuh",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Ziegenbrie Bockshornklee",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": null,
+    "name": "Ziegenfrischkäse natur",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Rohmilch",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Bastiaansen",
+    "name": "Ziegenfrischrolle natur",
+    "info": "Ohne Rinde",
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  },
+  {
+    "dairy": "Aurora",
+    "name": "Ziegengouda Aurora",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Bio Kaas B.V",
+    "name": "Ziegengouda Rosmarin Bastiaansen AUF VB",
+    "info": null,
+    "milk_type": "Ziege",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": false
+  },
+  {
+    "dairy": "Bergkäserei Zillertal",
+    "name": "Zillertaler Emmentaler",
+    "info": "leicht nussartig bis kräftig würzig, sehr leicht herb.",
+    "milk_type": "Kuh",
+    "milk_treatment": "Pasteurisiert",
+    "edible_rind": true
+  }
+]

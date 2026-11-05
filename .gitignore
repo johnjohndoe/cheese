@@ -1,0 +1,12 @@
+# Source spreadsheets — kept locally, not published (the site uses cheese.json)
+*.ods
+*.xlsx
+cheese.csv
+.~lock.*#
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
